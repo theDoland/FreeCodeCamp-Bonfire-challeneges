@@ -13,3 +13,5 @@ function bouncer(arr) {
   var newArr = arr.filter(checkFalse);
   return newArr;
 }
+
+// https://stackoverflow.com/questions/30314447/how-do-you-test-for-nan-in-javascript
